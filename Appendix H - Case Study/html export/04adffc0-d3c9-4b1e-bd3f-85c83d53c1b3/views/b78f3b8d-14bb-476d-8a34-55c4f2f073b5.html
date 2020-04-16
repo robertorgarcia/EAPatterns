@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>WebPortal Application View</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>WebPortal Application View</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/b78f3b8d-14bb-476d-8a34-55c4f2f073b5.png" alt="WebPortal Application View" usemap="#b78f3b8d-14bb-476d-8a34-55c4f2f073b5map"/>
+			   <map name="b78f3b8d-14bb-476d-8a34-55c4f2f073b5map">
+				  		<area shape="rect" coords="490,162,610,217" href="../elements/87a9c22b-1818-411c-b2a2-1201fbada92e.html"  target="element">
+				  		<area shape="rect" coords="490,10,611,71" href="../elements/c4a8cca4-8d38-49e4-86d6-f6ef3f3ffabb.html"  target="element">
+				  		<area shape="rect" coords="166,10,286,65" href="../elements/191932b7-cdc7-4726-9b6b-9da9e491ab69.html"  target="element">
+				  		<area shape="rect" coords="185,354,305,409" href="../elements/7f4df718-c82b-458f-9a8b-8295c1a82c41.html"  target="element">
+				  		<area shape="rect" coords="10,354,130,409" href="../elements/6a56d775-6206-47be-825b-f3343aebeb31.html"  target="element">
+				  		<area shape="rect" coords="293,162,413,217" href="../elements/8447b2cb-f6d8-4491-9d43-79dbe2928e1d.html"  target="element">
+				  		<area shape="rect" coords="101,162,221,217" href="../elements/8daa0e5d-a1f9-4f5c-98a1-c8dbfcdf1a83.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/8daa0e5d-a1f9-4f5c-98a1-c8dbfcdf1a83.html" target="element"> Web Portal </a> </td>
+											    <td> <a href="../elements/8daa0e5d-a1f9-4f5c-98a1-c8dbfcdf1a83.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/8447b2cb-f6d8-4491-9d43-79dbe2928e1d.html" target="element"> Manage Web Content </a> </td>
+											    <td> <a href="../elements/8447b2cb-f6d8-4491-9d43-79dbe2928e1d.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6a56d775-6206-47be-825b-f3343aebeb31.html" target="element"> Request Support </a> </td>
+											    <td> <a href="../elements/6a56d775-6206-47be-825b-f3343aebeb31.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7f4df718-c82b-458f-9a8b-8295c1a82c41.html" target="element"> Backend Services </a> </td>
+											    <td> <a href="../elements/7f4df718-c82b-458f-9a8b-8295c1a82c41.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/191932b7-cdc7-4726-9b6b-9da9e491ab69.html" target="element"> Buy Goods from Vending Machine </a> </td>
+											    <td> <a href="../elements/191932b7-cdc7-4726-9b6b-9da9e491ab69.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c4a8cca4-8d38-49e4-86d6-f6ef3f3ffabb.html" target="element"> Buy Goods from Vending Machine </a> </td>
+											    <td> <a href="../elements/c4a8cca4-8d38-49e4-86d6-f6ef3f3ffabb.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/87a9c22b-1818-411c-b2a2-1201fbada92e.html" target="element"> Analyze Information </a> </td>
+											    <td> <a href="../elements/87a9c22b-1818-411c-b2a2-1201fbada92e.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/50e96ee5-c735-4381-b20b-73dbdb5da4d5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/50e96ee5-c735-4381-b20b-73dbdb5da4d5.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/8daa0e5d-a1f9-4f5c-98a1-c8dbfcdf1a83.html" target="element"> Web Portal </a> </td>
+																		<td> <a href="../elements/191932b7-cdc7-4726-9b6b-9da9e491ab69.html" target="element"> Buy Goods from Vending Machine </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/1d91970e-7a34-473f-a2a5-91ef50a89ed0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1d91970e-7a34-473f-a2a5-91ef50a89ed0.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/8daa0e5d-a1f9-4f5c-98a1-c8dbfcdf1a83.html" target="element"> Web Portal </a> </td>
+																		<td> <a href="../elements/8447b2cb-f6d8-4491-9d43-79dbe2928e1d.html" target="element"> Manage Web Content </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/5956c0d8-d590-45ad-bae6-1fae59fb6141.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5956c0d8-d590-45ad-bae6-1fae59fb6141.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/8447b2cb-f6d8-4491-9d43-79dbe2928e1d.html" target="element"> Manage Web Content </a> </td>
+																		<td> <a href="../elements/87a9c22b-1818-411c-b2a2-1201fbada92e.html" target="element"> Analyze Information </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/747f725d-30be-4425-862c-6df9cc523b74.html" target="element">  </a> </td>
+																		<td> <a href="../elements/747f725d-30be-4425-862c-6df9cc523b74.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/6a56d775-6206-47be-825b-f3343aebeb31.html" target="element"> Request Support </a> </td>
+																		<td> <a href="../elements/8daa0e5d-a1f9-4f5c-98a1-c8dbfcdf1a83.html" target="element"> Web Portal </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/9956c4a9-984a-4a5b-acc7-5fe8c6a9609d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/9956c4a9-984a-4a5b-acc7-5fe8c6a9609d.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/7f4df718-c82b-458f-9a8b-8295c1a82c41.html" target="element"> Backend Services </a> </td>
+																		<td> <a href="../elements/8daa0e5d-a1f9-4f5c-98a1-c8dbfcdf1a83.html" target="element"> Web Portal </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/2a245e38-136e-437b-9b8a-defa0ca9d443.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2a245e38-136e-437b-9b8a-defa0ca9d443.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/191932b7-cdc7-4726-9b6b-9da9e491ab69.html" target="element"> Buy Goods from Vending Machine </a> </td>
+																		<td> <a href="../elements/c4a8cca4-8d38-49e4-86d6-f6ef3f3ffabb.html" target="element"> Buy Goods from Vending Machine </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

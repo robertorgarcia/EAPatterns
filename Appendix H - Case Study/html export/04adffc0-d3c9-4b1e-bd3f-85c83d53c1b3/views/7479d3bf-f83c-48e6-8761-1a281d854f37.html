@@ -1,0 +1,367 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Customer Relationship Application View</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Customer Relationship Application View</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/7479d3bf-f83c-48e6-8761-1a281d854f37.png" alt="Customer Relationship Application View" usemap="#7479d3bf-f83c-48e6-8761-1a281d854f37map"/>
+			   <map name="7479d3bf-f83c-48e6-8761-1a281d854f37map">
+				  		<area shape="rect" coords="598,274,718,329" href="../elements/60e3f4e6-a8a9-42fe-8fb5-ddd58240b1b2.html"  target="element">
+				  		<area shape="rect" coords="422,466,542,521" href="../elements/2b4b27de-df62-4928-b174-d4b111f2fa14.html"  target="element">
+				  		<area shape="rect" coords="274,466,394,521" href="../elements/cef27fa0-4aeb-4989-af9f-0d57a5b7b424.html"  target="element">
+				  		<area shape="rect" coords="10,154,130,209" href="../elements/72ac3731-f40f-45fd-8f00-0cba0dcb0a9e.html"  target="element">
+				  		<area shape="rect" coords="598,70,718,125" href="../elements/becb26d7-03ba-42a8-8778-917b63abd4d2.html"  target="element">
+				  		<area shape="rect" coords="598,208,718,263" href="../elements/759e5bb8-2b44-40fe-926b-d307c5c0587c.html"  target="element">
+				  		<area shape="rect" coords="129,598,249,653" href="../elements/5211b39b-d962-4247-8034-843e7ea67764.html"  target="element">
+				  		<area shape="rect" coords="129,466,249,521" href="../elements/16cbcbf3-c301-4fd7-8f9a-fa5f1983ce11.html"  target="element">
+				  				<area shape="rect" coords="394,310,514,365" href="../elements/b88c5ce3-3be5-45e5-ab4e-d1728c1ab1d9.html"  target="element">
+				  				<area shape="rect" coords="359,239,374,254" href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html"  target="element">
+				  				<area shape="rect" coords="226,142,346,197" href="../elements/fcac4236-5007-4b6c-b69b-b47a7c0b1e0a.html"  target="element">
+				  				<area shape="rect" coords="226,70,346,125" href="../elements/c11a05c3-d2fb-4baa-891d-49e041e91c7c.html"  target="element">
+				  				<area shape="rect" coords="226,214,346,269" href="../elements/70624f2a-9709-4d69-9e67-c45f054da90d.html"  target="element">
+				  				<area shape="rect" coords="394,70,514,125" href="../elements/b321baa1-c80e-4a6f-a6ca-03ecd09bfbec.html"  target="element">
+				  				<area shape="rect" coords="394,142,514,197" href="../elements/13758de1-793e-470a-9f41-f3720f49554b.html"  target="element">
+				  				<area shape="rect" coords="394,214,514,269" href="../elements/abf37bf8-9d04-4c2b-b95b-af4c5efbc7b6.html"  target="element">
+
+				  		<area shape="rect" coords="190,10,542,413" href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+											    <td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element" class="i18n-elementtype-Product"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/abf37bf8-9d04-4c2b-b95b-af4c5efbc7b6.html" target="element"> Grant Discounts </a> </td>
+													    <td> <a href="../elements/abf37bf8-9d04-4c2b-b95b-af4c5efbc7b6.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/13758de1-793e-470a-9f41-f3720f49554b.html" target="element"> Read Newsletter </a> </td>
+													    <td> <a href="../elements/13758de1-793e-470a-9f41-f3720f49554b.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/b321baa1-c80e-4a6f-a6ca-03ecd09bfbec.html" target="element"> Manage Profile Information </a> </td>
+													    <td> <a href="../elements/b321baa1-c80e-4a6f-a6ca-03ecd09bfbec.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/70624f2a-9709-4d69-9e67-c45f054da90d.html" target="element"> Manage Surveys </a> </td>
+													    <td> <a href="../elements/70624f2a-9709-4d69-9e67-c45f054da90d.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/c11a05c3-d2fb-4baa-891d-49e041e91c7c.html" target="element"> Manage Newsletter </a> </td>
+													    <td> <a href="../elements/c11a05c3-d2fb-4baa-891d-49e041e91c7c.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/fcac4236-5007-4b6c-b69b-b47a7c0b1e0a.html" target="element"> Manage Campaigns </a> </td>
+													    <td> <a href="../elements/fcac4236-5007-4b6c-b69b-b47a7c0b1e0a.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+													    <td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element" class="i18n-elementtype-Junction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/b88c5ce3-3be5-45e5-ab4e-d1728c1ab1d9.html" target="element"> Provide Customer Information </a> </td>
+													    <td> <a href="../elements/b88c5ce3-3be5-45e5-ab4e-d1728c1ab1d9.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/16cbcbf3-c301-4fd7-8f9a-fa5f1983ce11.html" target="element"> CRM SaaS terms of Service </a> </td>
+											    <td> <a href="../elements/16cbcbf3-c301-4fd7-8f9a-fa5f1983ce11.html" target="element" class="i18n-elementtype-Contract"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5211b39b-d962-4247-8034-843e7ea67764.html" target="element"> CRM Service Provider </a> </td>
+											    <td> <a href="../elements/5211b39b-d962-4247-8034-843e7ea67764.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/759e5bb8-2b44-40fe-926b-d307c5c0587c.html" target="element"> Interact with Customer </a> </td>
+											    <td> <a href="../elements/759e5bb8-2b44-40fe-926b-d307c5c0587c.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/becb26d7-03ba-42a8-8778-917b63abd4d2.html" target="element"> Interact with Enterprise </a> </td>
+											    <td> <a href="../elements/becb26d7-03ba-42a8-8778-917b63abd4d2.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/72ac3731-f40f-45fd-8f00-0cba0dcb0a9e.html" target="element"> Analyze Information </a> </td>
+											    <td> <a href="../elements/72ac3731-f40f-45fd-8f00-0cba0dcb0a9e.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/cef27fa0-4aeb-4989-af9f-0d57a5b7b424.html" target="element"> SaaS Webapplication </a> </td>
+											    <td> <a href="../elements/cef27fa0-4aeb-4989-af9f-0d57a5b7b424.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/2b4b27de-df62-4928-b174-d4b111f2fa14.html" target="element"> API </a> </td>
+											    <td> <a href="../elements/2b4b27de-df62-4928-b174-d4b111f2fa14.html" target="element" class="i18n-elementtype-TechnologyInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/60e3f4e6-a8a9-42fe-8fb5-ddd58240b1b2.html" target="element"> Central Dossier Repository </a> </td>
+											    <td> <a href="../elements/60e3f4e6-a8a9-42fe-8fb5-ddd58240b1b2.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/bdf9c2d4-279a-45bb-94c0-ea89d70576aa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bdf9c2d4-279a-45bb-94c0-ea89d70576aa.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/abf37bf8-9d04-4c2b-b95b-af4c5efbc7b6.html" target="element"> Grant Discounts </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/551f0580-72d8-41c1-b7ce-83a681c24446.html" target="element">  </a> </td>
+																		<td> <a href="../elements/551f0580-72d8-41c1-b7ce-83a681c24446.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/fcac4236-5007-4b6c-b69b-b47a7c0b1e0a.html" target="element"> Manage Campaigns </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/6c748bea-d5d5-48e3-807d-627bb9287dbb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6c748bea-d5d5-48e3-807d-627bb9287dbb.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/70624f2a-9709-4d69-9e67-c45f054da90d.html" target="element"> Manage Surveys </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/1d635548-e730-423b-a95a-dc374d19a2f1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1d635548-e730-423b-a95a-dc374d19a2f1.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/c11a05c3-d2fb-4baa-891d-49e041e91c7c.html" target="element"> Manage Newsletter </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/3f7a839b-12cc-469d-944d-734b7114ea3c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/3f7a839b-12cc-469d-944d-734b7114ea3c.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/13758de1-793e-470a-9f41-f3720f49554b.html" target="element"> Read Newsletter </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/eac94390-72bb-4f7c-90cc-471d9aeaafce.html" target="element">  </a> </td>
+																		<td> <a href="../elements/eac94390-72bb-4f7c-90cc-471d9aeaafce.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/b321baa1-c80e-4a6f-a6ca-03ecd09bfbec.html" target="element"> Manage Profile Information </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/e8be4998-deaa-4d7f-9874-6bd1b0b30579.html" target="element">  </a> </td>
+																		<td> <a href="../elements/e8be4998-deaa-4d7f-9874-6bd1b0b30579.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/b88c5ce3-3be5-45e5-ab4e-d1728c1ab1d9.html" target="element"> Provide Customer Information </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/20a21077-fdbc-4da9-8dc4-9654ed710b87.html" target="element">  </a> </td>
+																		<td> <a href="../elements/20a21077-fdbc-4da9-8dc4-9654ed710b87.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/bfd21366-9d5f-47f6-9fcb-489dfe8dd404.html" target="element"> CRM SaaS Offering </a> </td>
+																		<td> <a href="../elements/16cbcbf3-c301-4fd7-8f9a-fa5f1983ce11.html" target="element"> CRM SaaS terms of Service </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/77b4846c-0ba4-4183-99c4-4a791e39abac.html" target="element">  </a> </td>
+																				<td> <a href="../elements/77b4846c-0ba4-4183-99c4-4a791e39abac.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/abf37bf8-9d04-4c2b-b95b-af4c5efbc7b6.html" target="element"> Grant Discounts </a> </td>
+																				<td> <a href="../elements/759e5bb8-2b44-40fe-926b-d307c5c0587c.html" target="element"> Interact with Customer </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/2a893df3-699f-4543-acfb-cbd81a6f4c30.html" target="element">  </a> </td>
+																				<td> <a href="../elements/2a893df3-699f-4543-acfb-cbd81a6f4c30.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/13758de1-793e-470a-9f41-f3720f49554b.html" target="element"> Read Newsletter </a> </td>
+																				<td> <a href="../elements/becb26d7-03ba-42a8-8778-917b63abd4d2.html" target="element"> Interact with Enterprise </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/3e21cedf-3881-4ca2-af76-4db9f292e112.html" target="element">  </a> </td>
+																				<td> <a href="../elements/3e21cedf-3881-4ca2-af76-4db9f292e112.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b321baa1-c80e-4a6f-a6ca-03ecd09bfbec.html" target="element"> Manage Profile Information </a> </td>
+																				<td> <a href="../elements/becb26d7-03ba-42a8-8778-917b63abd4d2.html" target="element"> Interact with Enterprise </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/32f60b4c-b7d9-47cb-a7db-9685223aca02.html" target="element">  </a> </td>
+																				<td> <a href="../elements/32f60b4c-b7d9-47cb-a7db-9685223aca02.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/70624f2a-9709-4d69-9e67-c45f054da90d.html" target="element"> Manage Surveys </a> </td>
+																				<td> <a href="../elements/72ac3731-f40f-45fd-8f00-0cba0dcb0a9e.html" target="element"> Analyze Information </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/fbd9b94a-a3e7-4cd1-9484-e50720cca8aa.html" target="element">  </a> </td>
+																				<td> <a href="../elements/fbd9b94a-a3e7-4cd1-9484-e50720cca8aa.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/c11a05c3-d2fb-4baa-891d-49e041e91c7c.html" target="element"> Manage Newsletter </a> </td>
+																				<td> <a href="../elements/72ac3731-f40f-45fd-8f00-0cba0dcb0a9e.html" target="element"> Analyze Information </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/7b7516d8-ca3a-4e70-a06a-d965e03c69ea.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7b7516d8-ca3a-4e70-a06a-d965e03c69ea.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/fcac4236-5007-4b6c-b69b-b47a7c0b1e0a.html" target="element"> Manage Campaigns </a> </td>
+																				<td> <a href="../elements/72ac3731-f40f-45fd-8f00-0cba0dcb0a9e.html" target="element"> Analyze Information </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/ddfcaa4b-a392-4e3d-b640-a6b7965f5b70.html" target="element">  </a> </td>
+																				<td> <a href="../elements/ddfcaa4b-a392-4e3d-b640-a6b7965f5b70.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/abf37bf8-9d04-4c2b-b95b-af4c5efbc7b6.html" target="element"> Grant Discounts </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/e5471384-a345-4621-b19f-fbf8ceeaac5c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/e5471384-a345-4621-b19f-fbf8ceeaac5c.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/70624f2a-9709-4d69-9e67-c45f054da90d.html" target="element"> Manage Surveys </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/d19b9fbf-1e11-45a7-a92c-1fabeafce064.html" target="element">  </a> </td>
+																				<td> <a href="../elements/d19b9fbf-1e11-45a7-a92c-1fabeafce064.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/fcac4236-5007-4b6c-b69b-b47a7c0b1e0a.html" target="element"> Manage Campaigns </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/7f0b4256-891b-4b66-8fa6-d8f712cf70f9.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7f0b4256-891b-4b66-8fa6-d8f712cf70f9.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/13758de1-793e-470a-9f41-f3720f49554b.html" target="element"> Read Newsletter </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/a21a57b3-7e33-43fb-b0b2-08897c25eb66.html" target="element">  </a> </td>
+																				<td> <a href="../elements/a21a57b3-7e33-43fb-b0b2-08897c25eb66.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/c11a05c3-d2fb-4baa-891d-49e041e91c7c.html" target="element"> Manage Newsletter </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/2e094878-b3de-41a4-9be7-022e403735be.html" target="element">  </a> </td>
+																				<td> <a href="../elements/2e094878-b3de-41a4-9be7-022e403735be.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/b321baa1-c80e-4a6f-a6ca-03ecd09bfbec.html" target="element"> Manage Profile Information </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/7d192aec-0172-4c3a-895d-246d03cffb29.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7d192aec-0172-4c3a-895d-246d03cffb29.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/b88c5ce3-3be5-45e5-ab4e-d1728c1ab1d9.html" target="element"> Provide Customer Information </a> </td>
+																				<td> <a href="../elements/60e3f4e6-a8a9-42fe-8fb5-ddd58240b1b2.html" target="element"> Central Dossier Repository </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/59a6cf53-5dff-4cd4-b072-e8d6c5c4f013.html" target="element">  </a> </td>
+																		<td> <a href="../elements/59a6cf53-5dff-4cd4-b072-e8d6c5c4f013.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																		<td> <a href="../elements/5211b39b-d962-4247-8034-843e7ea67764.html" target="element"> CRM Service Provider </a> </td>
+																		<td> <a href="../elements/16cbcbf3-c301-4fd7-8f9a-fa5f1983ce11.html" target="element"> CRM SaaS terms of Service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/15b54a64-f1b2-4078-8eb5-6d616f84aff8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/15b54a64-f1b2-4078-8eb5-6d616f84aff8.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/cef27fa0-4aeb-4989-af9f-0d57a5b7b424.html" target="element"> SaaS Webapplication </a> </td>
+																		<td> <a href="../elements/6ac55728-1087-4be9-80dc-d5af726a2217.html" target="element"> Junction </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/caa1a95d-05cd-443c-84b6-ac293e40e38c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/caa1a95d-05cd-443c-84b6-ac293e40e38c.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/2b4b27de-df62-4928-b174-d4b111f2fa14.html" target="element"> API </a> </td>
+																		<td> <a href="../elements/b88c5ce3-3be5-45e5-ab4e-d1728c1ab1d9.html" target="element"> Provide Customer Information </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

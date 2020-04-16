@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Macro Process View</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Macro Process View</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/88b843bf-9513-44dd-be49-219b9cdc4806.png" alt="Macro Process View" usemap="#88b843bf-9513-44dd-be49-219b9cdc4806map"/>
+			   <map name="88b843bf-9513-44dd-be49-219b9cdc4806map">
+				  				<area shape="rect" coords="994,430,1114,485" href="../elements/0dc84fd5-56bd-40fc-bc71-1d41921352df.html"  target="element">
+				  				<area shape="rect" coords="922,358,1042,413" href="../elements/a767bd1c-12de-4742-a85f-b9de81ef52cb.html"  target="element">
+				  				<area shape="rect" coords="1066,358,1186,413" href="../elements/34ad7d50-92d9-48ca-99bb-79ca34d559aa.html"  target="element">
+
+				  		<area shape="rect" coords="898,310,1216,509" href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html"  target="element">
+				  				<area shape="rect" coords="514,382,634,437" href="../elements/71aed653-37c7-4e0b-8ce6-021aad574bef.html"  target="element">
+				  				<area shape="rect" coords="646,322,766,377" href="../elements/cc6168a7-8eac-47b9-a6e6-6ba2309a8287.html"  target="element">
+				  				<area shape="rect" coords="514,322,634,377" href="../elements/972e199d-4cd9-48c7-b99e-1fe59a65f97d.html"  target="element">
+				  				<area shape="rect" coords="646,238,766,293" href="../elements/64f406c9-c5f6-41bd-8600-0876e12cbda3.html"  target="element">
+				  				<area shape="rect" coords="514,238,634,293" href="../elements/f8751ba5-1ec0-4fe2-949f-455d8e12047d.html"  target="element">
+
+				  		<area shape="rect" coords="502,202,779,442" href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html"  target="element">
+				  		<area shape="rect" coords="274,130,421,194" href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html"  target="element">
+				  				<area shape="rect" coords="46,46,166,101" href="../elements/8f47a291-f7f0-447c-addd-2d067b84d245.html"  target="element">
+
+				  		<area shape="rect" coords="10,10,202,118" href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+											    <td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/8f47a291-f7f0-447c-addd-2d067b84d245.html" target="element"> Business Intelligence </a> </td>
+													    <td> <a href="../elements/8f47a291-f7f0-447c-addd-2d067b84d245.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html" target="element"> New Capabilities Development (macro 2) </a> </td>
+											    <td> <a href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+											    <td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/f8751ba5-1ec0-4fe2-949f-455d8e12047d.html" target="element"> Providing (product-based) services and results </a> </td>
+													    <td> <a href="../elements/f8751ba5-1ec0-4fe2-949f-455d8e12047d.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/64f406c9-c5f6-41bd-8600-0876e12cbda3.html" target="element"> Maintaining or repairing products, components </a> </td>
+													    <td> <a href="../elements/64f406c9-c5f6-41bd-8600-0876e12cbda3.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/972e199d-4cd9-48c7-b99e-1fe59a65f97d.html" target="element"> Digital Sales </a> </td>
+													    <td> <a href="../elements/972e199d-4cd9-48c7-b99e-1fe59a65f97d.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/cc6168a7-8eac-47b9-a6e6-6ba2309a8287.html" target="element"> Customer Relationship </a> </td>
+													    <td> <a href="../elements/cc6168a7-8eac-47b9-a6e6-6ba2309a8287.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/71aed653-37c7-4e0b-8ce6-021aad574bef.html" target="element"> Supply Chain Management </a> </td>
+													    <td> <a href="../elements/71aed653-37c7-4e0b-8ce6-021aad574bef.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+											    <td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/34ad7d50-92d9-48ca-99bb-79ca34d559aa.html" target="element"> Human Resources </a> </td>
+													    <td> <a href="../elements/34ad7d50-92d9-48ca-99bb-79ca34d559aa.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/a767bd1c-12de-4742-a85f-b9de81ef52cb.html" target="element"> Financials </a> </td>
+													    <td> <a href="../elements/a767bd1c-12de-4742-a85f-b9de81ef52cb.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/0dc84fd5-56bd-40fc-bc71-1d41921352df.html" target="element"> Collaboration </a> </td>
+													    <td> <a href="../elements/0dc84fd5-56bd-40fc-bc71-1d41921352df.html" target="element" class="i18n-elementtype-BusinessFunction"> </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/2ad2ccf3-2704-4e10-860c-37d1a6d85a63.html" target="element"> Plans </a> </td>
+																		<td> <a href="../elements/2ad2ccf3-2704-4e10-860c-37d1a6d85a63.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/3cc74cd4-2535-4995-9651-159709b7147c.html" target="element"> Plans </a> </td>
+																		<td> <a href="../elements/3cc74cd4-2535-4995-9651-159709b7147c.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/bd31d61c-76a7-4225-855f-f3497c70ccbb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bd31d61c-76a7-4225-855f-f3497c70ccbb.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b9e0bf67-96af-4e8a-b938-ae5b77714541.html" target="element"> Plans </a> </td>
+																		<td> <a href="../elements/b9e0bf67-96af-4e8a-b938-ae5b77714541.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																		<td> <a href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html" target="element"> New Capabilities Development (macro 2) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/61d9cf2c-6eb0-4c8c-a8ad-c2396e805574.html" target="element">  </a> </td>
+																		<td> <a href="../elements/61d9cf2c-6eb0-4c8c-a8ad-c2396e805574.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																		<td> <a href="../elements/8f47a291-f7f0-447c-addd-2d067b84d245.html" target="element"> Business Intelligence </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/26a7d6af-8f85-4589-b8d9-b023d4ae14c5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/26a7d6af-8f85-4589-b8d9-b023d4ae14c5.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html" target="element"> New Capabilities Development (macro 2) </a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/580367ad-daf3-4711-8d12-7ceb9ca1ab8e.html" target="element"> New capabilities </a> </td>
+																		<td> <a href="../elements/580367ad-daf3-4711-8d12-7ceb9ca1ab8e.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html" target="element"> New Capabilities Development (macro 2) </a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/70da5479-5bef-41d1-a368-ed4bb62f3a90.html" target="element"> Ideas and results </a> </td>
+																		<td> <a href="../elements/70da5479-5bef-41d1-a368-ed4bb62f3a90.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html" target="element"> New Capabilities Development (macro 2) </a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/83189c3d-848d-48be-bff5-902e36131299.html" target="element"> Needs </a> </td>
+																		<td> <a href="../elements/83189c3d-848d-48be-bff5-902e36131299.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/62194d94-d9b4-4cc4-9618-12208c5ffe13.html" target="element"> Ideas and results </a> </td>
+																		<td> <a href="../elements/62194d94-d9b4-4cc4-9618-12208c5ffe13.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/c9ce0050-5577-476b-bfc1-98cc5a2132d9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c9ce0050-5577-476b-bfc1-98cc5a2132d9.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																		<td> <a href="../elements/f8751ba5-1ec0-4fe2-949f-455d8e12047d.html" target="element"> Providing (product-based) services and results </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/98cad01f-6f10-45b6-88f7-c52c87501392.html" target="element">  </a> </td>
+																		<td> <a href="../elements/98cad01f-6f10-45b6-88f7-c52c87501392.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																		<td> <a href="../elements/64f406c9-c5f6-41bd-8600-0876e12cbda3.html" target="element"> Maintaining or repairing products, components </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/a27ba61f-6360-4491-b748-8c0d0820e64e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a27ba61f-6360-4491-b748-8c0d0820e64e.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																		<td> <a href="../elements/972e199d-4cd9-48c7-b99e-1fe59a65f97d.html" target="element"> Digital Sales </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/85c7d452-8cce-4f9d-b087-27161dd05026.html" target="element">  </a> </td>
+																		<td> <a href="../elements/85c7d452-8cce-4f9d-b087-27161dd05026.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																		<td> <a href="../elements/cc6168a7-8eac-47b9-a6e6-6ba2309a8287.html" target="element"> Customer Relationship </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b860981b-788e-4ff2-9041-591fbdab9715.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b860981b-788e-4ff2-9041-591fbdab9715.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																		<td> <a href="../elements/71aed653-37c7-4e0b-8ce6-021aad574bef.html" target="element"> Supply Chain Management </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/cbaae5b8-3ed3-4e38-b6d9-6f0af4081ab1.html" target="element"> Resources </a> </td>
+																		<td> <a href="../elements/cbaae5b8-3ed3-4e38-b6d9-6f0af4081ab1.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																		<td> <a href="../elements/6886062b-97b3-47d3-a379-2e7a5b99aae1.html" target="element"> Value Chain (macro 1) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/0a2b6fc3-17ce-46d0-ad80-e369f6b4658d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/0a2b6fc3-17ce-46d0-ad80-e369f6b4658d.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																		<td> <a href="../elements/84719f5a-b513-46b1-b4ab-85a424de8deb.html" target="element"> New Capabilities Development (macro 2) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f4445849-06d9-48c9-be97-889d6785eda9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f4445849-06d9-48c9-be97-889d6785eda9.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																		<td> <a href="../elements/d893f03b-7c14-4851-9462-3f02190c39a9.html" target="element"> Business Planning (macro 3) </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ec51f8cf-7386-4a0a-bd55-7a11cc0ce1f8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ec51f8cf-7386-4a0a-bd55-7a11cc0ce1f8.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																		<td> <a href="../elements/a767bd1c-12de-4742-a85f-b9de81ef52cb.html" target="element"> Financials </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/6ded1b7d-ce07-4d5e-b5e6-49a815e6229b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6ded1b7d-ce07-4d5e-b5e6-49a815e6229b.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																		<td> <a href="../elements/34ad7d50-92d9-48ca-99bb-79ca34d559aa.html" target="element"> Human Resources </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/2dfc5cf4-2c02-4143-bee0-c15a683cafcc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2dfc5cf4-2c02-4143-bee0-c15a683cafcc.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/1f134910-0232-4f09-b328-59bffdc40d12.html" target="element"> Support Processes (macro 4) </a> </td>
+																		<td> <a href="../elements/0dc84fd5-56bd-40fc-bc71-1d41921352df.html" target="element"> Collaboration </a> </td>
+																	</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

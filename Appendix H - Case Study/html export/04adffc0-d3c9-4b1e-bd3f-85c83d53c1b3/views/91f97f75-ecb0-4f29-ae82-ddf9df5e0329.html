@@ -1,0 +1,368 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Human Resources Application View</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Human Resources Application View</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/91f97f75-ecb0-4f29-ae82-ddf9df5e0329.png" alt="Human Resources Application View" usemap="#91f97f75-ecb0-4f29-ae82-ddf9df5e0329map"/>
+			   <map name="91f97f75-ecb0-4f29-ae82-ddf9df5e0329map">
+				  		<area shape="rect" coords="10,346,130,401" href="../elements/8f0a1264-c84a-4258-bfc2-95848e73c5c3.html"  target="element">
+				  		<area shape="rect" coords="10,250,130,305" href="../elements/32bb2493-b2e6-4737-9abf-5a861350179f.html"  target="element">
+				  		<area shape="rect" coords="939,150,1059,205" href="../elements/be3b02d7-8bfb-4534-98c4-0120e252cfbb.html"  target="element">
+				  		<area shape="rect" coords="622,562,742,617" href="../elements/fc79a270-88c8-427d-a8bc-bad9856d4820.html"  target="element">
+				  		<area shape="rect" coords="344,562,464,617" href="../elements/72627ad9-c71e-4216-baaf-455c81911599.html"  target="element">
+				  				<area shape="rect" coords="382,322,397,337" href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html"  target="element">
+				  				<area shape="rect" coords="634,153,754,208" href="../elements/a6106975-8dfd-4e1b-801b-591b0507325a.html"  target="element">
+				  				<area shape="rect" coords="413,70,533,125" href="../elements/a9b2599a-232b-4f46-9532-308faef2865d.html"  target="element">
+				  				<area shape="rect" coords="634,226,754,281" href="../elements/c6084a6f-d37e-4a10-96db-5d3a24bf9de4.html"  target="element">
+				  				<area shape="rect" coords="238,70,358,125" href="../elements/e956c088-db75-42a1-aeb7-86015f1ab8fe.html"  target="element">
+				  				<area shape="rect" coords="634,310,754,365" href="../elements/46e795cc-d18b-4188-87ab-5eb715cd53bc.html"  target="element">
+				  				<area shape="rect" coords="238,236,358,291" href="../elements/e32a99de-994b-4a89-aab8-1449f628da26.html"  target="element">
+				  				<area shape="rect" coords="238,153,358,208" href="../elements/4fc16b79-6fb7-41cc-bbe8-2ce1f52e0ba5.html"  target="element">
+				  				<area shape="rect" coords="413,236,533,291" href="../elements/4d2237e4-c157-4b5e-8d74-6f880ac5b568.html"  target="element">
+				  				<area shape="rect" coords="634,70,754,125" href="../elements/eb888a2e-6588-497f-a7c8-4149ab37ec90.html"  target="element">
+				  				<area shape="rect" coords="413,153,533,208" href="../elements/a934f03e-b52f-4d01-99b6-9b32b9cddd18.html"  target="element">
+
+				  		<area shape="rect" coords="166,10,874,394" href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+											    <td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element" class="i18n-elementtype-Product"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/a934f03e-b52f-4d01-99b6-9b32b9cddd18.html" target="element"> Record Working Time </a> </td>
+													    <td> <a href="../elements/a934f03e-b52f-4d01-99b6-9b32b9cddd18.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/eb888a2e-6588-497f-a7c8-4149ab37ec90.html" target="element"> Manage Human Resources </a> </td>
+													    <td> <a href="../elements/eb888a2e-6588-497f-a7c8-4149ab37ec90.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/4d2237e4-c157-4b5e-8d74-6f880ac5b568.html" target="element"> Get Candidature </a> </td>
+													    <td> <a href="../elements/4d2237e4-c157-4b5e-8d74-6f880ac5b568.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/4fc16b79-6fb7-41cc-bbe8-2ce1f52e0ba5.html" target="element"> Find Person </a> </td>
+													    <td> <a href="../elements/4fc16b79-6fb7-41cc-bbe8-2ce1f52e0ba5.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e32a99de-994b-4a89-aab8-1449f628da26.html" target="element"> File Candidature </a> </td>
+													    <td> <a href="../elements/e32a99de-994b-4a89-aab8-1449f628da26.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/46e795cc-d18b-4188-87ab-5eb715cd53bc.html" target="element"> Modify Dossier </a> </td>
+													    <td> <a href="../elements/46e795cc-d18b-4188-87ab-5eb715cd53bc.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e956c088-db75-42a1-aeb7-86015f1ab8fe.html" target="element"> Change PIM </a> </td>
+													    <td> <a href="../elements/e956c088-db75-42a1-aeb7-86015f1ab8fe.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/c6084a6f-d37e-4a10-96db-5d3a24bf9de4.html" target="element"> Fill in Request </a> </td>
+													    <td> <a href="../elements/c6084a6f-d37e-4a10-96db-5d3a24bf9de4.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/a9b2599a-232b-4f46-9532-308faef2865d.html" target="element"> Get Working Hours </a> </td>
+													    <td> <a href="../elements/a9b2599a-232b-4f46-9532-308faef2865d.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/a6106975-8dfd-4e1b-801b-591b0507325a.html" target="element"> Manage Information </a> </td>
+													    <td> <a href="../elements/a6106975-8dfd-4e1b-801b-591b0507325a.html" target="element" class="i18n-elementtype-ApplicationService"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+													    <td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element" class="i18n-elementtype-Junction"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/72627ad9-c71e-4216-baaf-455c81911599.html" target="element"> HR SaaS terms of Service </a> </td>
+											    <td> <a href="../elements/72627ad9-c71e-4216-baaf-455c81911599.html" target="element" class="i18n-elementtype-Contract"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/fc79a270-88c8-427d-a8bc-bad9856d4820.html" target="element"> HR SaaS Provider </a> </td>
+											    <td> <a href="../elements/fc79a270-88c8-427d-a8bc-bad9856d4820.html" target="element" class="i18n-elementtype-BusinessActor"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/be3b02d7-8bfb-4534-98c4-0120e252cfbb.html" target="element"> HR Management Process </a> </td>
+											    <td> <a href="../elements/be3b02d7-8bfb-4534-98c4-0120e252cfbb.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/32bb2493-b2e6-4737-9abf-5a861350179f.html" target="element"> Candidate Process </a> </td>
+											    <td> <a href="../elements/32bb2493-b2e6-4737-9abf-5a861350179f.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/8f0a1264-c84a-4258-bfc2-95848e73c5c3.html" target="element"> Employee Processes </a> </td>
+											    <td> <a href="../elements/8f0a1264-c84a-4258-bfc2-95848e73c5c3.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/7e1608e4-b095-4413-969c-298090f8f920.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7e1608e4-b095-4413-969c-298090f8f920.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/a934f03e-b52f-4d01-99b6-9b32b9cddd18.html" target="element"> Record Working Time </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d3169aab-55f7-416c-9360-a28604717832.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d3169aab-55f7-416c-9360-a28604717832.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/eb888a2e-6588-497f-a7c8-4149ab37ec90.html" target="element"> Manage Human Resources </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/856bea92-2977-42ea-a468-fc3a20904470.html" target="element">  </a> </td>
+																		<td> <a href="../elements/856bea92-2977-42ea-a468-fc3a20904470.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/4d2237e4-c157-4b5e-8d74-6f880ac5b568.html" target="element"> Get Candidature </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/9cba5b39-5f38-4f70-825f-65ec7655791a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/9cba5b39-5f38-4f70-825f-65ec7655791a.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/4fc16b79-6fb7-41cc-bbe8-2ce1f52e0ba5.html" target="element"> Find Person </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/e4d99671-ae9e-4ba2-9caa-f3e124a8aa9e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/e4d99671-ae9e-4ba2-9caa-f3e124a8aa9e.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/e32a99de-994b-4a89-aab8-1449f628da26.html" target="element"> File Candidature </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/04f65d05-6df4-4f77-94c5-d5ec1dc1d173.html" target="element">  </a> </td>
+																		<td> <a href="../elements/04f65d05-6df4-4f77-94c5-d5ec1dc1d173.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/46e795cc-d18b-4188-87ab-5eb715cd53bc.html" target="element"> Modify Dossier </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/14e40823-6b59-41eb-bbfb-ef7c7186d46b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/14e40823-6b59-41eb-bbfb-ef7c7186d46b.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/e956c088-db75-42a1-aeb7-86015f1ab8fe.html" target="element"> Change PIM </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/38a66375-eca5-4487-9ee6-9f40c3759152.html" target="element">  </a> </td>
+																		<td> <a href="../elements/38a66375-eca5-4487-9ee6-9f40c3759152.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/c6084a6f-d37e-4a10-96db-5d3a24bf9de4.html" target="element"> Fill in Request </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b93559e0-cb6e-4d42-b075-fe10769477e6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b93559e0-cb6e-4d42-b075-fe10769477e6.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/a9b2599a-232b-4f46-9532-308faef2865d.html" target="element"> Get Working Hours </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/5f348612-49a6-4718-b67c-76552e52e04a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5f348612-49a6-4718-b67c-76552e52e04a.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/a6106975-8dfd-4e1b-801b-591b0507325a.html" target="element"> Manage Information </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7623f044-a3b3-4ca1-a6a0-0f7ccd7a416a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7623f044-a3b3-4ca1-a6a0-0f7ccd7a416a.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/d8d1a29d-269a-4c90-98ed-bb3c81642d81.html" target="element"> Human Resource SaaS Application </a> </td>
+																		<td> <a href="../elements/72627ad9-c71e-4216-baaf-455c81911599.html" target="element"> HR SaaS terms of Service </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/6ae68c40-e289-4f0a-b8ae-370c95d99a1f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/6ae68c40-e289-4f0a-b8ae-370c95d99a1f.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/a934f03e-b52f-4d01-99b6-9b32b9cddd18.html" target="element"> Record Working Time </a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/d2d22258-4bfd-4bec-8ebb-fa026fad2d1d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/d2d22258-4bfd-4bec-8ebb-fa026fad2d1d.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/eb888a2e-6588-497f-a7c8-4149ab37ec90.html" target="element"> Manage Human Resources </a> </td>
+																				<td> <a href="../elements/be3b02d7-8bfb-4534-98c4-0120e252cfbb.html" target="element"> HR Management Process </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/4d68dd5e-0d6e-44d5-911c-0d531a965d13.html" target="element">  </a> </td>
+																				<td> <a href="../elements/4d68dd5e-0d6e-44d5-911c-0d531a965d13.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/4d2237e4-c157-4b5e-8d74-6f880ac5b568.html" target="element"> Get Candidature </a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/929c327c-fb60-4d92-89ce-94ca47df9c1f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/929c327c-fb60-4d92-89ce-94ca47df9c1f.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/4fc16b79-6fb7-41cc-bbe8-2ce1f52e0ba5.html" target="element"> Find Person </a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/47ea62cb-155a-49da-8af4-7ef820483a41.html" target="element">  </a> </td>
+																				<td> <a href="../elements/47ea62cb-155a-49da-8af4-7ef820483a41.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/e32a99de-994b-4a89-aab8-1449f628da26.html" target="element"> File Candidature </a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/6b8135d4-bf74-48bd-b5b3-1623ffe74d20.html" target="element">  </a> </td>
+																				<td> <a href="../elements/6b8135d4-bf74-48bd-b5b3-1623ffe74d20.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/46e795cc-d18b-4188-87ab-5eb715cd53bc.html" target="element"> Modify Dossier </a> </td>
+																				<td> <a href="../elements/be3b02d7-8bfb-4534-98c4-0120e252cfbb.html" target="element"> HR Management Process </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/2cb0e6b5-02cb-4055-be63-e43ab42b9b08.html" target="element">  </a> </td>
+																				<td> <a href="../elements/2cb0e6b5-02cb-4055-be63-e43ab42b9b08.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/e956c088-db75-42a1-aeb7-86015f1ab8fe.html" target="element"> Change PIM </a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/fff6d7ca-a8bb-44a7-b1a2-ac4423ee398f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/fff6d7ca-a8bb-44a7-b1a2-ac4423ee398f.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/c6084a6f-d37e-4a10-96db-5d3a24bf9de4.html" target="element"> Fill in Request </a> </td>
+																				<td> <a href="../elements/be3b02d7-8bfb-4534-98c4-0120e252cfbb.html" target="element"> HR Management Process </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/7c19f2f4-09f1-4b9f-9ea2-a391217f06a4.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7c19f2f4-09f1-4b9f-9ea2-a391217f06a4.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/a9b2599a-232b-4f46-9532-308faef2865d.html" target="element"> Get Working Hours </a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/9ca7baaf-db40-4abe-831f-ca04f9529ee6.html" target="element">  </a> </td>
+																				<td> <a href="../elements/9ca7baaf-db40-4abe-831f-ca04f9529ee6.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/a6106975-8dfd-4e1b-801b-591b0507325a.html" target="element"> Manage Information </a> </td>
+																				<td> <a href="../elements/be3b02d7-8bfb-4534-98c4-0120e252cfbb.html" target="element"> HR Management Process </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/47dbb750-2916-4209-be65-7f5f2e96e08f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/47dbb750-2916-4209-be65-7f5f2e96e08f.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/32bb2493-b2e6-4737-9abf-5a861350179f.html" target="element"> Candidate Process </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/70817884-6492-4d1e-89d1-14f6bab276b4.html" target="element">  </a> </td>
+																				<td> <a href="../elements/70817884-6492-4d1e-89d1-14f6bab276b4.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/28c7a65d-2869-426f-96e4-7daf756c5a94.html" target="element"> Junction </a> </td>
+																				<td> <a href="../elements/8f0a1264-c84a-4258-bfc2-95848e73c5c3.html" target="element"> Employee Processes </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/0996cf8b-09d7-4631-9b59-0f8b77696c84.html" target="element">  </a> </td>
+																		<td> <a href="../elements/0996cf8b-09d7-4631-9b59-0f8b77696c84.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																		<td> <a href="../elements/fc79a270-88c8-427d-a8bc-bad9856d4820.html" target="element"> HR SaaS Provider </a> </td>
+																		<td> <a href="../elements/72627ad9-c71e-4216-baaf-455c81911599.html" target="element"> HR SaaS terms of Service </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
