@@ -1,212 +1,212 @@
-ID,source,name,description,Related to BMC,BMC relation comes from article?,,
-C106,S4,Management?s interest toward full automation,Automation type,adoption factors,No,,
-C107,S4,Health and education,External population,adoption factors,No,,
-C108,S4,Regulatory and public services,External population,adoption factors,No,,
-C109,S4,Housing and service Infrastructure,External population,adoption factors,No,,
-C123,S4,Flexible business system,Change in business and technical processes,adoption factors,No,,
-C125,S4,Conduct of pilot study on new production/business processes,Change in business and technical processes,adoption factors,No,,
-C135,S5,diversity and equal opportunities,Characteristic part of the social dimension,adoption factors,No,,
-C136,S5,training and development,Characteristic part of the social dimension,adoption factors,No,,
-C137,S5,health and safety,Characteristic part of the social dimension,adoption factors,No,,
-C144,S6,Sustainabibility awareness,,adoption factors,No,,
-C146,S6,Reconfiguration process,Characteristic part of the economic dimension,adoption factors,No,,
-C149,S6,Flexible organization management,Characteristic part of the economic dimension,adoption factors,No,,
-C153,S6,Business Practices (e.g. corruption and fairtrading),Characteristic part of the social dimension,adoption factors,No,,
-C154,S6,"Environmental management (e.g. budget, certifications)",Characteristic part of the environmental dimension,adoption factors,No,,
-C167,S7,"Sustainability leaders or champions promote cultural and structural transformation (e.g.: mindset, corporate culture, organizational processes, intangible investments, human resources policy, and organizational structure)",Sustainable qualifying criteria: value creation,adoption factors,No,,
-C168,S7,New governance for decision making in the network is established (collective decision making structures),Sustainable qualifying criteria: value creation,adoption factors,No,,
-C176,S7,Economic sustainability is a prerequisite (solutions shall enable economic value capture) [12],Sustainable qualifying criteria: value capture,adoption factors,No,,
-C180,S7,Long term view is fundamental,Sustainable qualifying criteria: value transformation category,adoption factors,No,,
-C187,S7,"Value transformation shall be considered to take into consideration the changes that a business model may suffer in order to adapt to external socio-economic or technological transitions (such as legislation, infrastructure) in a long-term period.",main ideas following qualifying criteria,adoption factors,No,,
-C188,S8,"Governance systems ensuring transparency, accountability and collaboration",,adoption factors,No,,
-C189,S8,"leadership building educational, communication and rewards capabilities into the organization",,adoption factors,No,,
-C190,S8,leadership that questions business as usual by being open to new ideas and challenging others to adopt new ways of thinking,,adoption factors,No,,
-C191,S8,leadership understanding the role of each player (stakeholders) and their interactions,,adoption factors,No,,
-C193,S8,business plan is explicit in its sustainability vision,,adoption factors,No,,
-C197,S8,"Organizations must be able to learn (e.g. challenging mental models, fostering fundamental change, engaging extensive collaborative activity, and in some cases, revisiting core assumptions about business and its purpose)",,adoption factors,No,,
-C50,S2,"intangible resources, like team motivation, organizational culture, knowledge and change management",characteristic product of new construct for the BMC: adoption factors,adoption factors,Yes,,
-C52,S3,learn sustainability measures to reduce waste and emissions,Characteristic mapped to Environmental stewardship-holistic environmental management-product stewardship,adoption factors,No,,
-C62,S3,"Strategize to reduce waste, effluents and emissions",Characteristic mapped to process excelence-integrated vision and strategy-Pollution prevention,adoption factors,No,,
-C63,S3,"Strategize to reduce waste, effluents and emissions through the value chain cycle",Characteristic mapped to process excelence-integrated vision and strategy-product stewardship,adoption factors,No,,
-C64,S3,strategize to improve profits and quality of environment while engaging with stakeholders,Characteristic mapped to process excelence-integrated vision and strategy-sustainable development,adoption factors,No,,
-C71,S3,emergence of advocates and change agents with ideas for waste reduction,Characteristic mapped to Sustainability-Oriented Culture-internal advocates and change agents-Pollution prevention,adoption factors,No,,
-C74,S3,continuous education on reducing waste and emissions,Characteristic mapped to Sustainability-Oriented Culture-ongoing education and awareness-Pollution prevention,adoption factors,No,,
-C75,S3,"continuous education on reducing waste and emissions throughout the life cycle including the internal firm, suppliers and retailrs",Characteristic mapped to Sustainability-Oriented Culture-ongoing education and awareness-product stewardship,adoption factors,No,,
-C76,S3,publishing books and case studies on sustainable development in collaboration with other stakeholders,Characteristic mapped to Sustainability-Oriented Culture-ongoing education and awareness-sustainable development,adoption factors,No,,
-C84,S4,Preparedness of the management to invest on latest design,Design improvement,adoption factors,No,,
-C181,S7,"Consideration of changing social expectations (e.g.: laws, regulations)",Sustainable qualifying criteria: value transformation category,adoption factors,No,,
-C182,S7,Consideration of changing infrastructure (e.g. transportation system),Sustainable qualifying criteria: value transformation category,adoption factors,No,,
-C194,S8,business plan involves new practices and processes being implemented,,adoption factors,No,,
-C195,S8,"business plan must be holistic integrating environmental, social and economic elements, integrating internal and external stakeholders ",,adoption factors,No,,
-C198,S8,"organizations must therefore efficiently and effectively create, capture, harvest, shape and apply sustainability-related knowledge and insights",,adoption factors,No,,
-C192,S8,leadership building multidisciplinary partnerships ,,adoption factors,No,,
-C140,S5,employment creation,Characteristic part of the economic dimension,adoption factors,No,,
-C174,S7,Society and nature are treated as stakeholders,Sustainable qualifying criteria: value delivery,adoption factors,No,,
-C96,S4,Global warming,"Natural resources (air, water, land)",Cost structure,No,,
-C97,S4,Land usage and transformation,"Natural resources (air, water, land)",Cost structure,No,,
-C100,S4,Contribution to depletion of energy resources,Mineral and energy resources,Cost structure,No,,
-C68,S3,focus on waste and emission reduction within the firm,Characteristic mapped to Sustainability-Oriented Culture-sustainability focused leadership-Pollution prevention,Cost structure,No,,
-C69,S3,focus on waste and emission reduction within the entire lifecycle,Characteristic mapped to Sustainability-Oriented Culture-sustainability focused leadership-product stewardship,Cost structure,No,,
-C95,S4,Release of water effluents and pollutants,"Natural resources (air, water, land)",Cost structure,No,,
-C98,S4,Contribution to depletion of non-renewable energy resource,Mineral and energy resources,Cost structure,No,,
-C99,S4,Contribution to depletion of minerals,Mineral and energy resources,Cost structure,No,,
-C139,S5,charitable donations,Characteristic part of the social dimension,Cost structure,No,,
-C175,S7,"Triple Bottom Line approach in measuring performance (some authors suggest a TRI-PROFIT - single indicator representing the net sum of cost and revenues as a result of activities of environmental, social and economic contexts) [13,36,38]",Sustainable qualifying criteria: value capture,Cost structure,No,,
-C177,S7,Financial model reflects an appropriate distribution of economic costs and benefits among the stakeholders involved in the business model,Sustainable qualifying criteria: value capture,Cost structure,No,,
-C178,S7,Consideration of environmental and social externalities (positive and negative) in the bottom line,Sustainable qualifying criteria: value capture,Cost structure,No,,
-C21,S1,Fixed cost with clean production technologies.,Characteristic mapped to cost structure in BMC,Cost structure,Yes,,
-C22,S1,Variable cost with acquisition of green materials and packing.,Characteristic mapped to cost structure in BMC,Cost structure,Yes,,
-C46,S2,"reflecting financial changes made in other components of CBM, including the value of incentives for customers",Characteristic mapped to cost structure in BMC,Cost structure,Yes,,
-C86,S4,Activity-based method of product pricing,Cost management,Cost structure,No,,
-C87,S4,Costing system focusing on the identification of value adding and non-value adding activities,Cost management,Cost structure,No,,
-C88,S4,Product cost fixed based on customer?s pricing,Cost management,Cost structure,No,,
-C126,S5,Climate change and carbon emissions,Characteristic part of the environmental dimension,Cost structure,No,,
-C155,S6,"Use of resources (e.g. renewables, water and wastes)",Characteristic part of the environmental dimension,Cost structure,No,,
-C156,S6,Pollution,Characteristic part of the environmental dimension,Cost structure,No,,
-C157,S6,"Dangerousness of input, output and wastes",Characteristic part of the environmental dimension,Cost structure,No,,
-C196,S8,"sustainability must be measured, avoiding current accounting practices",,Cost structure,No,,
-C127,S5,energy consumption,Characteristic part of the environmental dimension,Cost structure,No,,
-C179,S7,Lower eco-burden (resource depletion and environmental pollution),Sustainable qualifying criteria: value capture,Cost structure,No,,
-C158,S6,"Natural environmental (e.g. land use, development of rural areas)",Characteristic part of the environmental dimension,Cost structure,No,,
-C28,S2,possibly virtualized through selling virtualized value proposition and delivering it also virtually,Characteristic mapped to the customer channels in BMC,Customer channels,Yes,,
-C29,S2,"selling non-virtualized value propositions via virtual channels,",Characteristic mapped to the customer channels in BMC,Customer channels,Yes,,
-C3,S1,Digital Channels,Characteristic mapped to the customer channels in BMC,Customer channels,Yes,,
-C30,S2,communicating with customers virtually,Characteristic mapped to the customer channels in BMC,Customer channels,Yes,,
-C61,S3,engage with local councils and other businesses to recycle urban waste,Characteristic mapped to Environmental stewardship-regenerative practices-sustainable development,Customer relationships,No,,
-C73,S3,partnering with community and employees to restore the depleted environment,Characteristic mapped to Sustainability-Oriented Culture-internal advocates and change agents-sustainable development,Customer relationships,No,,
-C10,S1,A long-term relationship,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C110,S4,Collective audience,Stake holder participation,Customer relationships,No,,
-C111,S4,Selective audience,Stake holder participation,Customer relationships,No,,
-C112,S4,Stake holder empowerment,Stake holder participation,Customer relationships,No,,
-C166,S7,Co-creation of value is fundamental - value creation is described considering a system or network-centric perspective rather than company centric,Sustainable qualifying criteria: value creation,Customer relationships,No,,
-C185,S7,Value delivery considers all involved stakeholders - including nature and society - not focusing solely on customers;,main ideas following qualifying criteria,Customer relationships,No,,
-C186,S7,Value capture accounts for environmental and social sources beyond the traditional economic one and takes all stakeholders into perspective;,main ideas following qualifying criteria,Customer relationships,No,,
-C31,S2,producing on order,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C32,S2,engaging customers to vote for which product to make,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C4,S1,Personal assistance,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C5,S1,Dedicated-personal assistance,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C6,S1,Self-service,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C7,S1,Automated services,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C77,S4,Specification of product life to the customer,Product life cycle,Customer relationships,No,,
-C78,S4,Company encourages to the customer for switching over to new product,Product life cycle,Customer relationships,No,,
-C8,S1,Communities,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C82,S4,Minimum time required to restore the defective product to its original performance,Product Service,Customer relationships,No,,
-C9,S1,Co-creation,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes,,
-C138,S5,local community links,Characteristic part of the social dimension,Customer relationships,No,,
-C173,S7,Customer interface motivates customers to take responsibility for their consumption (change in mindset),Sustainable qualifying criteria: value delivery,Customer relationships,No,,
-C1,S1,High regulated markets from environmental perspective,Characteristic mapped to the customer segment in BMC,Customer Segment,Yes,,
-C2,S1,Customer segments that expect environmental awareness,Characteristic mapped to the customer segment in BMC,Customer Segment,Yes,,
-C70,S3,Corporate sustainability projects engaging stakeholders within and outside the firm,Characteristic mapped to Sustainability-Oriented Culture-sustainability focused leadership-sustainable development,Key activities,No,,
-C117,S4,Exploitation of IT utilities in managing the supply chain,Outsourcing,Key activities,No,,
-C12,S1,Reduce environmental waste,Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C172,S7,Interests and needs of all stakeholders from the network constellation are considered for business delivery,Sustainable qualifying criteria: value delivery,Key activities,No,,
-C124,S4,Application of business process reengineering (BPR) for reinventing and reengineering the organization,Change in business and technical processes,Key activities,No,,
-C128,S5,water stewardship,Characteristic part of the environmental dimension,Key activities,No,,
-C129,S5,waste management,Characteristic part of the environmental dimension,Key activities,No,,
+ID,source,name,description,Related to BMC,BMC relation comes from article?
+C106,S4,Management’s interest toward full automation,Automation type,adoption factors,No
+C107,S4,Health and education,External population,adoption factors,No
+C108,S4,Regulatory and public services,External population,adoption factors,No
+C109,S4,Housing and service Infrastructure,External population,adoption factors,No
+C123,S4,Flexible business system,Change in business and technical processes,adoption factors,No
+C125,S4,Conduct of pilot study on new production/business processes,Change in business and technical processes,adoption factors,No
+C135,S5,diversity and equal opportunities,Characteristic part of the social dimension,adoption factors,No
+C136,S5,training and development,Characteristic part of the social dimension,adoption factors,No
+C137,S5,health and safety,Characteristic part of the social dimension,adoption factors,No
+C144,S6,Sustainabibility awareness,,adoption factors,No
+C146,S6,Reconfiguration process,Characteristic part of the economic dimension,adoption factors,No
+C149,S6,Flexible organization management,Characteristic part of the economic dimension,adoption factors,No
+C153,S6,Business Practices (e.g. corruption and fairtrading),Characteristic part of the social dimension,adoption factors,No
+C154,S6,"Environmental management (e.g. budget, certifications)",Characteristic part of the environmental dimension,adoption factors,No
+C167,S7,"Sustainability leaders or champions promote cultural and structural transformation (e.g.: mindset, corporate culture, organizational processes, intangible investments, human resources policy, and organizational structure)",Sustainable qualifying criteria: value creation,adoption factors,No
+C168,S7,New governance for decision making in the network is established (collective decision making structures),Sustainable qualifying criteria: value creation,adoption factors,No
+C176,S7,Economic sustainability is a prerequisite (solutions shall enable economic value capture) [12],Sustainable qualifying criteria: value capture,adoption factors,No
+C180,S7,Long term view is fundamental,Sustainable qualifying criteria: value transformation category,adoption factors,No
+C187,S7,"Value transformation shall be considered to take into consideration the changes that a business model may suffer in order to adapt to external socio-economic or technological transitions (such as legislation, infrastructure) in a long-term period.",main ideas following qualifying criteria,adoption factors,No
+C188,S8,"Governance systems ensuring transparency, accountability and collaboration",,adoption factors,No
+C189,S8,"leadership building educational, communication and rewards capabilities into the organization",,adoption factors,No
+C190,S8,leadership that questions business as usual by being open to new ideas and challenging others to adopt new ways of thinking,,adoption factors,No
+C191,S8,leadership understanding the role of each player (stakeholders) and their interactions,,adoption factors,No
+C193,S8,business plan is explicit in its sustainability vision,,adoption factors,No
+C197,S8,"Organizations must be able to learn (e.g. challenging mental models, fostering fundamental change, engaging extensive collaborative activity, and in some cases, revisiting core assumptions about business and its purpose)",,adoption factors,No
+C50,S2,"intangible resources, like team motivation, organizational culture, knowledge and change management",characteristic product of new construct for the BMC: adoption factors,adoption factors,Yes
+C52,S3,learn sustainability measures to reduce waste and emissions,Characteristic mapped to Environmental stewardship-holistic environmental management-product stewardship,adoption factors,No
+C62,S3,"Strategize to reduce waste, effluents and emissions",Characteristic mapped to process excelence-integrated vision and strategy-Pollution prevention,adoption factors,No
+C63,S3,"Strategize to reduce waste, effluents and emissions through the value chain cycle",Characteristic mapped to process excelence-integrated vision and strategy-product stewardship,adoption factors,No
+C64,S3,strategize to improve profits and quality of environment while engaging with stakeholders,Characteristic mapped to process excelence-integrated vision and strategy-sustainable development,adoption factors,No
+C71,S3,emergence of advocates and change agents with ideas for waste reduction,Characteristic mapped to Sustainability-Oriented Culture-internal advocates and change agents-Pollution prevention,adoption factors,No
+C74,S3,continuous education on reducing waste and emissions,Characteristic mapped to Sustainability-Oriented Culture-ongoing education and awareness-Pollution prevention,adoption factors,No
+C75,S3,"continuous education on reducing waste and emissions throughout the life cycle including the internal firm, suppliers and retailrs",Characteristic mapped to Sustainability-Oriented Culture-ongoing education and awareness-product stewardship,adoption factors,No
+C76,S3,publishing books and case studies on sustainable development in collaboration with other stakeholders,Characteristic mapped to Sustainability-Oriented Culture-ongoing education and awareness-sustainable development,adoption factors,No
+C84,S4,Preparedness of the management to invest on latest design,Design improvement,adoption factors,No
+C181,S7,"Consideration of changing social expectations (e.g.: laws, regulations)",Sustainable qualifying criteria: value transformation category,adoption factors,No
+C182,S7,Consideration of changing infrastructure (e.g. transportation system),Sustainable qualifying criteria: value transformation category,adoption factors,No
+C194,S8,business plan involves new practices and processes being implemented,,adoption factors,No
+C195,S8,"business plan must be holistic integrating environmental, social and economic elements, integrating internal and external stakeholders ",,adoption factors,No
+C198,S8,"organizations must therefore efficiently and effectively create, capture, harvest, shape and apply sustainability-related knowledge and insights",,adoption factors,No
+C192,S8,leadership building multidisciplinary partnerships ,,adoption factors,No
+C140,S5,employment creation,Characteristic part of the economic dimension,adoption factors,No
+C174,S7,Society and nature are treated as stakeholders,Sustainable qualifying criteria: value delivery,adoption factors,No
+C96,S4,Global warming,"Natural resources (air, water, land)",Cost structure,No
+C97,S4,Land usage and transformation,"Natural resources (air, water, land)",Cost structure,No
+C100,S4,Contribution to depletion of energy resources,Mineral and energy resources,Cost structure,No
+C68,S3,focus on waste and emission reduction within the firm,Characteristic mapped to Sustainability-Oriented Culture-sustainability focused leadership-Pollution prevention,Cost structure,No
+C69,S3,focus on waste and emission reduction within the entire lifecycle,Characteristic mapped to Sustainability-Oriented Culture-sustainability focused leadership-product stewardship,Cost structure,No
+C95,S4,Release of water effluents and pollutants,"Natural resources (air, water, land)",Cost structure,No
+C98,S4,Contribution to depletion of non-renewable energy resource,Mineral and energy resources,Cost structure,No
+C99,S4,Contribution to depletion of minerals,Mineral and energy resources,Cost structure,No
+C139,S5,charitable donations,Characteristic part of the social dimension,Cost structure,No
+C175,S7,"Triple Bottom Line approach in measuring performance (some authors suggest a TRI-PROFIT - single indicator representing the net sum of cost and revenues as a result of activities of environmental, social and economic contexts) [13,36,38]",Sustainable qualifying criteria: value capture,Cost structure,No
+C177,S7,Financial model reflects an appropriate distribution of economic costs and benefits among the stakeholders involved in the business model,Sustainable qualifying criteria: value capture,Cost structure,No
+C178,S7,Consideration of environmental and social externalities (positive and negative) in the bottom line,Sustainable qualifying criteria: value capture,Cost structure,No
+C21,S1,Fixed cost with clean production technologies.,Characteristic mapped to cost structure in BMC,Cost structure,Yes
+C22,S1,Variable cost with acquisition of green materials and packing.,Characteristic mapped to cost structure in BMC,Cost structure,Yes
+C46,S2,"reflecting financial changes made in other components of CBM, including the value of incentives for customers",Characteristic mapped to cost structure in BMC,Cost structure,Yes
+C86,S4,Activity-based method of product pricing,Cost management,Cost structure,No
+C87,S4,Costing system focusing on the identification of value adding and non-value adding activities,Cost management,Cost structure,No
+C88,S4,Product cost fixed based on customer’s pricing,Cost management,Cost structure,No
+C126,S5,Climate change and carbon emissions,Characteristic part of the environmental dimension,Cost structure,No
+C155,S6,"Use of resources (e.g. renewables, water and wastes)",Characteristic part of the environmental dimension,Cost structure,No
+C156,S6,Pollution,Characteristic part of the environmental dimension,Cost structure,No
+C157,S6,"Dangerousness of input, output and wastes",Characteristic part of the environmental dimension,Cost structure,No
+C196,S8,"sustainability must be measured, avoiding current accounting practices",,Cost structure,No
+C127,S5,energy consumption,Characteristic part of the environmental dimension,Cost structure,No
+C179,S7,Lower eco-burden (resource depletion and environmental pollution),Sustainable qualifying criteria: value capture,Cost structure,No
+C158,S6,"Natural environmental (e.g. land use, development of rural areas)",Characteristic part of the environmental dimension,Cost structure,No
+C28,S2,possibly virtualized through selling virtualized value proposition and delivering it also virtually,Characteristic mapped to the customer channels in BMC,Customer channels,Yes
+C29,S2,"selling non-virtualized value propositions via virtual channels,",Characteristic mapped to the customer channels in BMC,Customer channels,Yes
+C3,S1,Digital Channels,Characteristic mapped to the customer channels in BMC,Customer channels,Yes
+C30,S2,communicating with customers virtually,Characteristic mapped to the customer channels in BMC,Customer channels,Yes
+C61,S3,engage with local councils and other businesses to recycle urban waste,Characteristic mapped to Environmental stewardship-regenerative practices-sustainable development,Customer relationships,No
+C73,S3,partnering with community and employees to restore the depleted environment,Characteristic mapped to Sustainability-Oriented Culture-internal advocates and change agents-sustainable development,Customer relationships,No
+C10,S1,A long-term relationship,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C110,S4,Collective audience,Stake holder participation,Customer relationships,No
+C111,S4,Selective audience,Stake holder participation,Customer relationships,No
+C112,S4,Stake holder empowerment,Stake holder participation,Customer relationships,No
+C166,S7,Co-creation of value is fundamental - value creation is described considering a system or network-centric perspective rather than company centric,Sustainable qualifying criteria: value creation,Customer relationships,No
+C185,S7,Value delivery considers all involved stakeholders - including nature and society - not focusing solely on customers;,main ideas following qualifying criteria,Customer relationships,No
+C186,S7,Value capture accounts for environmental and social sources beyond the traditional economic one and takes all stakeholders into perspective;,main ideas following qualifying criteria,Cost structure,No
+C31,S2,producing on order,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C32,S2,engaging customers to vote for which product to make,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C4,S1,Personal assistance,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C5,S1,Dedicated-personal assistance,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C6,S1,Self-service,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C7,S1,Automated services,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C77,S4,Specification of product life to the customer,Product life cycle,Customer relationships,No
+C78,S4,Company encourages to the customer for switching over to new product,Product life cycle,Customer relationships,No
+C8,S1,Communities,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C82,S4,Minimum time required to restore the defective product to its original performance,Product Service,Customer relationships,No
+C9,S1,Co-creation,Characteristic mapped to the customer relationships in BMC,Customer relationships,Yes
+C138,S5,local community links,Characteristic part of the social dimension,Customer relationships,No
+C173,S7,Customer interface motivates customers to take responsibility for their consumption (change in mindset),Sustainable qualifying criteria: value delivery,Customer relationships,No
+C1,S1,High regulated markets from environmental perspective,Characteristic mapped to the customer segment in BMC,Customer Segment,Yes
+C2,S1,Customer segments that expect environmental awareness,Characteristic mapped to the customer segment in BMC,Customer Segment,Yes
+C70,S3,Corporate sustainability projects engaging stakeholders within and outside the firm,Characteristic mapped to Sustainability-Oriented Culture-sustainability focused leadership-sustainable development,Key activities,No
+C117,S4,Exploitation of IT utilities in managing the supply chain,Outsourcing,Key activities,No
+C12,S1,Reduce environmental waste,Characteristic mapped to the key activities in BMC,Key activities,Yes
+C172,S7,Interests and needs of all stakeholders from the network constellation are considered for business delivery,Sustainable qualifying criteria: value delivery,Key activities,No
+C124,S4,Application of business process reengineering (BPR) for reinventing and reengineering the organization,Change in business and technical processes,Key activities,No
+C128,S5,water stewardship,Characteristic part of the environmental dimension,Key activities,No
+C129,S5,waste management,Characteristic part of the environmental dimension,Key activities,No
 C13,S1,"Incorporate environmental issues in
-product development and production",Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C131,S5,conserving natural resources,Characteristic part of the environmental dimension,Key activities,No,,
-C147,S6,Competitive manufacturing strategies (e.g. lean),Characteristic part of the economic dimension,Key activities,No,,
-C148,S6,Performance evaluation,Characteristic part of the economic dimension,Key activities,No,,
-C151,S6,Work management issues (e.g. work conditions),Characteristic part of the social dimension,Key activities,No,,
-C152,S6,Human issues (e.g. child labor),Characteristic part of the social dimension,Key activities,No,,
-C201,S9,segregate waste,Environmental performance management: waste,Key activities,No,,
-C202,S9,recycle waste,Environmental performance management: waste,Key activities,No,,
-C203,S9,recover food waste for compost,Environmental performance management: waste,Key activities,No,,
-C204,S9,harvest rain water ,Environmental performance management: water,Key activities,No,,
-C39,S2,increasing performance through good housekeeping,Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C40,S2,better process control,Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C41,S2,equipment modification and technology changes,Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C42,S2,sharing and virtualization,Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C43,S2,"improving the design of the product, to make it ready for material loops and becoming more eco-friendly",Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C44,S2,Lobbying,Characteristic mapped to the key activities in BMC,Key activities,Yes,,
-C51,S3,"Reducing solid waste, waste water and emissions",Characteristic mapped to Environmental stewardship-holistic environmental management-Pollution prevention,Key activities,No,,
-C56,S3,develop an eco-efficient company vision,Characteristic mapped to Environmental stewardship-holistic environmental management-sustainable development,Key activities,No,,
-C57,S3,minimum intervention model to reduce hazardous chemical emissions,Characteristic mapped to Environmental stewardship-ecopreneurship-Pollution prevention,Key activities,No,,
-C60,S3,develop a minimum intervention model to reduce toxic chemicals for humans and environment,Characteristic mapped to Environmental stewardship-regenerative practices-product stewardship,Key activities,No,,
-C65,S3,implementing lean manufacturing tools ,Characteristic mapped to process excelence-process efficiency and optimization-Pollution prevention,Key activities,No,,
-C83,S4,Cross-functional teams involvement in design and development,Design improvement,Key activities,No,,
-C89,S4,Scheduled activities,Time management,Key activities,No,,
-C91,S4,Adoption of time compression technologies,Time management,Key activities,No,,
-C85,S4,"Usage of design for manufacturing agency (DFMA) concepts, axioms and guidelines",Design improvement,Key activities,No,,
-C150,S6,"Societal commitment (e.g. jobs creation, societal investment)",Characteristic part of the social dimension,Key activities,No,,
-C184,S7,Value creation is treated in a network scale and not only company centric;,main ideas following qualifying criteria,Key partners,No,,
-C114,S4,Better coordination along supply chain,Late order penetration point,Key partners,No,,
-C116,S4,Adoption of SCM concepts for enhancing the outsourcing efficiency,Outsourcing,Key partners,No,,
-C118,S4,Involvement of suppliers in product development,Outsourcing,Key partners,No,,
-C119,S4,Strategic network in SCM to exercise zero inventory system,Manufacturing planning,Key partners,No,,
-C130,S5,logistics,Characteristic part of the environmental dimension,Key partners,No,,
-C133,S5,responsible sourcing,Characteristic part of the social dimension,Key partners,No,,
-C134,S5,working conditions of suppliers,Characteristic part of the social dimension,Key partners,No,,
-C142,S5,supplier relations,Characteristic part of the economic dimension,Key partners,No,,
-C16,S1,"Collaboration with material suppliers, logistic providers and other stakeholders to reduce environmental impacts.",Characteristic mapped to key partners in BMC,Key partners,Yes,,
-C169,S7,Suppliers engage in sustainable supply chain management (materials cycle),Sustainable qualifying criteria: value creation,Key partners,No,,
-C170,S7,Network enables environmental resources view and tracking in order to assess their availability,Sustainable qualifying criteria: value creation,Key partners,No,,
-C171,S7,"Network aims for using renewable resources and energy, minimizing or eliminating non-recyclable waste and pollution with technological innovations to close the loop, reducing consumption, and repairing environmental damage",Sustainable qualifying criteria: value creation,Key partners,No,,
-C45,S2,"choosing and cooperating with partners, along the value chain and supply chain, which support the circular economy",Characteristic mapped to key partners in BMC,Key partners,Yes,,
-C54,S3,ethical sourcing of materials,Characteristic mapped to Environmental stewardship-holistic environmental management-product stewardship,Key partners,No,,
-C58,S3,partnering with other plastic bottle companies to manufacture recycled polyester products,Characteristic mapped to Environmental stewardship-ecopreneurship-Product stewardship,Key partners,No,,
-C66,S3,selecting suppliers with standards in process efficiency,Characteristic mapped to process excelence-process efficiency and optimization-product stewardship,Key partners,No,,
-C72,S3,"partnering with suppliers to reduce waste, emissions and ethical use of materials",Characteristic mapped to Sustainability-Oriented Culture-internal advocates and change agents-product stewardship,Key partners,No,,
-C81,S4,Service centers well equipped with spares,Product Service,Key resources,No,,
-C104,S4,Company having automated systems,Automation type,Key resources,No,,
-C105,S4,Flexible automation,Automation type,Key resources,No,,
-C120,S4,IT utilities incorporated with reengineered pattern of  working,Information technology integration,Key resources,No,,
-C121,S4,IT application to eliminate paper work,Information technology integration,Key resources,No,,
-C122,S4,Adoption of multimedia technology,Information technology integration,Key resources,No,,
-C14,S1,Intellectual resources: green knowledge ,Characteristic mapped to the key resources in BMC,Key resources,Yes,,
+product development and production",Characteristic mapped to the key activities in BMC,Key activities,Yes
+C131,S5,conserving natural resources,Characteristic part of the environmental dimension,Key activities,No
+C147,S6,Competitive manufacturing strategies (e.g. lean),Characteristic part of the economic dimension,Key activities,No
+C148,S6,Performance evaluation,Characteristic part of the economic dimension,Key activities,No
+C151,S6,Work management issues (e.g. work conditions),Characteristic part of the social dimension,Key activities,No
+C152,S6,Human issues (e.g. child labor),Characteristic part of the social dimension,Key activities,No
+C201,S9,segregate waste,Environmental performance management: waste,Key activities,No
+C202,S9,recycle waste,Environmental performance management: waste,Key activities,No
+C203,S9,recover food waste for compost,Environmental performance management: waste,Key activities,No
+C204,S9,harvest rain water ,Environmental performance management: water,Key activities,No
+C39,S2,increasing performance through good housekeeping,Characteristic mapped to the key activities in BMC,Key activities,Yes
+C40,S2,better process control,Characteristic mapped to the key activities in BMC,Key activities,Yes
+C41,S2,equipment modification and technology changes,Characteristic mapped to the key activities in BMC,Key activities,Yes
+C42,S2,sharing and virtualization,Characteristic mapped to the key activities in BMC,Key activities,Yes
+C43,S2,"improving the design of the product, to make it ready for material loops and becoming more eco-friendly",Characteristic mapped to the key activities in BMC,Key activities,Yes
+C44,S2,Lobbying,Characteristic mapped to the key activities in BMC,Key activities,Yes
+C51,S3,"Reducing solid waste, waste water and emissions",Characteristic mapped to Environmental stewardship-holistic environmental management-Pollution prevention,Key activities,No
+C56,S3,develop an eco-efficient company vision,Characteristic mapped to Environmental stewardship-holistic environmental management-sustainable development,Key activities,No
+C57,S3,minimum intervention model to reduce hazardous chemical emissions,Characteristic mapped to Environmental stewardship-ecopreneurship-Pollution prevention,Key activities,No
+C60,S3,develop a minimum intervention model to reduce toxic chemicals for humans and environment,Characteristic mapped to Environmental stewardship-regenerative practices-product stewardship,Key activities,No
+C65,S3,implementing lean manufacturing tools ,Characteristic mapped to process excelence-process efficiency and optimization-Pollution prevention,Key activities,No
+C83,S4,Cross-functional teams involvement in design and development,Design improvement,Key activities,No
+C89,S4,Scheduled activities,Time management,Key activities,No
+C91,S4,Adoption of time compression technologies,Time management,Key activities,No
+C85,S4,"Usage of design for manufacturing agency (DFMA) concepts, axioms and guidelines",Design improvement,Key activities,No
+C150,S6,"Societal commitment (e.g. jobs creation, societal investment)",Characteristic part of the social dimension,Key activities,No
+C184,S7,Value creation is treated in a network scale and not only company centric;,main ideas following qualifying criteria,Key partners,No
+C114,S4,Better coordination along supply chain,Late order penetration point,Key partners,No
+C116,S4,Adoption of SCM concepts for enhancing the outsourcing efficiency,Outsourcing,Key partners,No
+C118,S4,Involvement of suppliers in product development,Outsourcing,Key partners,No
+C119,S4,Strategic network in SCM to exercise zero inventory system,Manufacturing planning,Key partners,No
+C130,S5,logistics,Characteristic part of the environmental dimension,Key partners,No
+C133,S5,responsible sourcing,Characteristic part of the social dimension,Key partners,No
+C134,S5,working conditions of suppliers,Characteristic part of the social dimension,Key partners,No
+C142,S5,supplier relations,Characteristic part of the economic dimension,Key partners,No
+C16,S1,"Collaboration with material suppliers, logistic providers and other stakeholders to reduce environmental impacts.",Characteristic mapped to key partners in BMC,Key partners,Yes
+C169,S7,Suppliers engage in sustainable supply chain management (materials cycle),Sustainable qualifying criteria: value creation,Key partners,No
+C170,S7,Network enables environmental resources view and tracking in order to assess their availability,Sustainable qualifying criteria: value creation,Key partners,No
+C171,S7,"Network aims for using renewable resources and energy, minimizing or eliminating non-recyclable waste and pollution with technological innovations to close the loop, reducing consumption, and repairing environmental damage",Sustainable qualifying criteria: value creation,Key partners,No
+C45,S2,"choosing and cooperating with partners, along the value chain and supply chain, which support the circular economy",Characteristic mapped to key partners in BMC,Key partners,Yes
+C54,S3,ethical sourcing of materials,Characteristic mapped to Environmental stewardship-holistic environmental management-product stewardship,Key partners,No
+C58,S3,partnering with other plastic bottle companies to manufacture recycled polyester products,Characteristic mapped to Environmental stewardship-ecopreneurship-Product stewardship,Key partners,No
+C66,S3,selecting suppliers with standards in process efficiency,Characteristic mapped to process excelence-process efficiency and optimization-product stewardship,Key partners,No
+C72,S3,"partnering with suppliers to reduce waste, emissions and ethical use of materials",Characteristic mapped to Sustainability-Oriented Culture-internal advocates and change agents-product stewardship,Key partners,No
+C81,S4,Service centers well equipped with spares,Product Service,Key resources,No
+C104,S4,Company having automated systems,Automation type,Key resources,No
+C105,S4,Flexible automation,Automation type,Key resources,No
+C120,S4,IT utilities incorporated with reengineered pattern of  working,Information technology integration,Key resources,No
+C121,S4,IT application to eliminate paper work,Information technology integration,Key resources,No
+C122,S4,Adoption of multimedia technology,Information technology integration,Key resources,No
+C14,S1,Intellectual resources: green knowledge ,Characteristic mapped to the key resources in BMC,adoption factors,no
 C15,S1,"Physical resources: clean
-production and eco-efficient technologies.",Characteristic mapped to the key resources in BMC,Key resources,Yes,,
-C199,S8,"Informations systems help organizations implement sustainability through automating, informating (up and down) and transforming organizations, respectively",,Key resources,No,,
-C200,S9,utilise bio-based material as input,Environmental performance management: waste,Key resources,No,,
-C205,S9,use water efficient appliances,Environmental performance management: water,Key resources,No,,
-C206,S9,"use natural light, sensors and energy efficient appliances",Environmental performance management: energy,Key resources,No,,
-C207,S9,use thermal insulation,Environmental performance management: energy,Key resources,No,,
-C208,S9,use emission filtering systems,Environmental performance management: emissions,Key resources,No,,
-C209,S9,use energy efficient appliances,Environmental performance management: emissions,Key resources,No,,
-C36,S2,choosing suppliers offering better-performing materials,Characteristic mapped to the key resources in BMC,Key resources,Yes,,
-C37,S2,virtualization of materials,Characteristic mapped to the key resources in BMC,Key resources,Yes,,
-C38,S2,"resources allowing to regenerate and restore natural capital, and/or the resources obtained from customers or third parties meant to circulate in material loops  preferably closed)",Characteristic mapped to the key resources in BMC,Key resources,Yes,,
-C55,S3,capitalise on solar power,Characteristic mapped to Environmental stewardship-holistic environmental management-sustainable development,Key resources,No,,
-C90,S4,IT-based communication system,Time management,Key resources,No,,
-C141,S5,shareholder value,Characteristic part of the economic dimension,Revenue Stream,No,,
-C17,S1,Optimize the supply chain; ,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes,,
-C18,S1,Reduce the lead time to market; ,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes,,
-C19,S1,Sourcing alternative materials at a better price or value; ,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes,,
-C20,S1,Internal movement toward zero waste.,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes,,
-C33,S2,payments for a circular product or service,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes,,
-C34,S2,"payments for delivered availability, usage, or performance related to the product-based service offered",Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes,,
-C35,S2,Revenues may also pertain to the value of resources retrieved from material loops,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes,,
-C67,S3,engage with stakeholders to get funding for sustainable infrastructure and new technology,Characteristic mapped to process excelence-process efficiency and optimization-sustainable development,Revenue Stream,No,,
-C143,S5,delivering customer value,Characteristic part of the economic dimension,Revenue Stream,No,,
-C103,S4,Upgradability and retirement of machines,Eco-efficient machines,take-back system,No,,
-C47,S2,"take-back system management, or reverse logistic management",Characteristic product of new construct for the BMC: take-back system,take-back system,Yes,,
-C48,S2,take-back system channels,Characteristic product of new construct for the BMC: take-back system,take-back system,Yes,,
-C49,S2,take-back systems' relation with customers,Characteristic product of new construct for the BMC: take-back system,take-back system,Yes,,
-C101,S4,Reusability,Eco-efficient machines,Value proposition,No,,
-C102,S4,Recyclability,Eco-efficient machines,Value proposition,No,,
-C11,S1,Providing environmental friendly product and services,Characteristic mapped to the value proposition in BMC,Value proposition,Yes,,
-C115,S4,"Modularity for post-use, reusable and recyclable modules",Late order penetration point,Value proposition,No,,
-C132,S5,environmentally friendly products,Characteristic part of the environmental dimension,Value proposition,No,,
-C145,S6,Innovative products design,Characteristic part of the economic dimension,Value proposition,No,,
-C159,S7,"Value propositions are systematically assessed, being not only positive, but also negative or transforming over time. They address needs and how they are satisfied (value created and delivered), left unsatisfied (value destroyed and missed) or potentially satisfied in the future (value opportunities to be captured)",Sustainable qualifying criteria: value proposition,Value proposition,Yes,,
-C160,S7,"Value propositions and opportunities take a life-cycle thinking approach into account, addressing the beginning-of-life, middle-of- life and end-of-life of offerings (products, services or product-service systems)",Sustainable qualifying criteria: value proposition,Value proposition,Yes,,
-C161,S7,"Value propositions balance economic, environment and social needs",Sustainable qualifying criteria: value proposition,Value proposition,Yes,,
-C162,S7,Value propositions internalize externalities (environmental and social,Sustainable qualifying criteria: value proposition,Value proposition,Yes,,
-C163,S7,Value propositions add extra value in comparison to market competition,Sustainable qualifying criteria: value proposition,Value proposition,Yes,,
-C164,S7,"Value propositions aim for radical innovations [27,37]",Sustainable qualifying criteria: value proposition,Value proposition,Yes,,
-C165,S7,Value proposition combines and integrates knowledge from multiple disciplines,Sustainable qualifying criteria: value proposition,Value proposition,Yes,,
-C183,S7,"Sustainability requires new sources, types and approaches to address value proposition",main ideas following qualifying criteria,Value proposition,Yes,,
-C210,S9,use natural materials as replacement for chemical inputs,Environmental performance management: chemical,Value proposition,No,,
-C23,S2,circular products enabling product-life extension,Characteristic mapped to the value proposition in BMC,Value proposition,Yes,,
-C24,S2,product-service system,Characteristic mapped to the value proposition in BMC,Value proposition,Yes,,
-C25,S2,virtualized services,Characteristic mapped to the value proposition in BMC,Value proposition,Yes,,
-C26,S2,collaborative consumption,Characteristic mapped to the value proposition in BMC,Value proposition,Yes,,
-C27,S2,incentives and benefits offered to the customers for bringing back used products,Characteristic mapped to the value proposition in BMC,Value proposition,Yes,,
-C53,S3,reduce waste in product life cycle,Characteristic mapped to Environmental stewardship-holistic environmental management-product stewardship,Value proposition,No,,
-C59,S3,converting urban waste into a value adding product,Characteristic mapped to Environmental stewardship-regenerative practices-Pollution prevention,Value proposition,No,,
-C79,S4,Products superior field performance for a stipulated period with least maintenance cost,Product life cycle,Value proposition,No,,
-C80,S4,Products designed for easy serviceability,Product Service,Value proposition,No,,
-C92,S4,Environment friendly products,Use of renewable and non-toxic materials,Value proposition,No,,
-C93,S4,Easy to recycle,Use of renewable and non-toxic materials,Value proposition,No,,
-C94,S4,Easy for reuse,Use of renewable and non-toxic materials,Value proposition,No,,
+production and eco-efficient technologies.",Characteristic mapped to the key resources in BMC,Key resources,Yes
+C199,S8,"Informations systems help organizations implement sustainability through automating, informating (up and down) and transforming organizations, respectively",,Key resources,No
+C200,S9,utilise bio-based material as input,Environmental performance management: waste,Key resources,No
+C205,S9,use water efficient appliances,Environmental performance management: water,Key resources,No
+C206,S9,"use natural light, sensors and energy efficient appliances",Environmental performance management: energy,Key resources,No
+C207,S9,use thermal insulation,Environmental performance management: energy,Key resources,No
+C208,S9,use emission filtering systems,Environmental performance management: emissions,Key resources,No
+C209,S9,use energy efficient appliances,Environmental performance management: emissions,Key resources,No
+C36,S2,choosing suppliers offering better-performing materials,Characteristic mapped to the key resources in BMC,Key partners,No
+C37,S2,virtualization of materials,Characteristic mapped to the key resources in BMC,Key resources,Yes
+C38,S2,"resources allowing to regenerate and restore natural capital, and/or the resources obtained from customers or third parties meant to circulate in material loops  preferably closed)",Characteristic mapped to the key resources in BMC,Key resources,Yes
+C55,S3,capitalise on solar power,Characteristic mapped to Environmental stewardship-holistic environmental management-sustainable development,Key resources,No
+C90,S4,IT-based communication system,Time management,Key resources,No
+C141,S5,shareholder value,Characteristic part of the economic dimension,Revenue Stream,No
+C17,S1,Optimize the supply chain; ,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes
+C18,S1,Reduce the lead time to market; ,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes
+C19,S1,Sourcing alternative materials at a better price or value; ,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes
+C20,S1,Internal movement toward zero waste.,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes
+C33,S2,payments for a circular product or service,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes
+C34,S2,"payments for delivered availability, usage, or performance related to the product-based service offered",Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes
+C35,S2,Revenues may also pertain to the value of resources retrieved from material loops,Characteristic mapped to Revenue Stream in BMC,Revenue Stream,Yes
+C67,S3,engage with stakeholders to get funding for sustainable infrastructure and new technology,Characteristic mapped to process excelence-process efficiency and optimization-sustainable development,Revenue Stream,No
+C143,S5,delivering customer value,Characteristic part of the economic dimension,Revenue Stream,No
+C103,S4,Upgradability and retirement of machines,Eco-efficient machines,Key activities,No
+C47,S2,"take-back system management, or reverse logistic management",Characteristic product of new construct for the BMC: take-back system,Customer channels,Yes
+C48,S2,take-back system channels,Characteristic product of new construct for the BMC: take-back system,Customer channels,Yes
+C49,S2,take-back systems' relation with customers,Characteristic product of new construct for the BMC: take-back system,Customer relationships,Yes
+C101,S4,Reusability,Eco-efficient machines,Value proposition,No
+C102,S4,Recyclability,Eco-efficient machines,Value proposition,No
+C11,S1,Providing environmental friendly product and services,Characteristic mapped to the value proposition in BMC,Value proposition,Yes
+C115,S4,"Modularity for post-use, reusable and recyclable modules",Late order penetration point,Value proposition,No
+C132,S5,environmentally friendly products,Characteristic part of the environmental dimension,Value proposition,No
+C145,S6,Innovative products design,Characteristic part of the economic dimension,Value proposition,No
+C159,S7,"Value propositions are systematically assessed, being not only positive, but also negative or transforming over time. They address needs and how they are satisfied (value created and delivered), left unsatisfied (value destroyed and missed) or potentially satisfied in the future (value opportunities to be captured)",Sustainable qualifying criteria: value proposition,Value proposition,Yes
+C160,S7,"Value propositions and opportunities take a life-cycle thinking approach into account, addressing the beginning-of-life, middle-of- life and end-of-life of offerings (products, services or product-service systems)",Sustainable qualifying criteria: value proposition,Value proposition,Yes
+C161,S7,"Value propositions balance economic, environment and social needs",Sustainable qualifying criteria: value proposition,Value proposition,Yes
+C162,S7,Value propositions internalize externalities (environmental and social,Sustainable qualifying criteria: value proposition,Value proposition,Yes
+C163,S7,Value propositions add extra value in comparison to market competition,Sustainable qualifying criteria: value proposition,Value proposition,Yes
+C164,S7,"Value propositions aim for radical innovations [27,37]",Sustainable qualifying criteria: value proposition,Value proposition,Yes
+C165,S7,Value proposition combines and integrates knowledge from multiple disciplines,Sustainable qualifying criteria: value proposition,Value proposition,Yes
+C183,S7,"Sustainability requires new sources, types and approaches to address value proposition",main ideas following qualifying criteria,Value proposition,Yes
+C210,S9,use natural materials as replacement for chemical inputs,Environmental performance management: chemical,Value proposition,No
+C23,S2,circular products enabling product-life extension,Characteristic mapped to the value proposition in BMC,Value proposition,Yes
+C24,S2,product-service system,Characteristic mapped to the value proposition in BMC,Value proposition,Yes
+C25,S2,virtualized services,Characteristic mapped to the value proposition in BMC,Value proposition,Yes
+C26,S2,collaborative consumption,Characteristic mapped to the value proposition in BMC,Value proposition,Yes
+C27,S2,incentives and benefits offered to the customers for bringing back used products,Characteristic mapped to the value proposition in BMC,Customer relationships,no
+C53,S3,reduce waste in product life cycle,Characteristic mapped to Environmental stewardship-holistic environmental management-product stewardship,Value proposition,No
+C59,S3,converting urban waste into a value adding product,Characteristic mapped to Environmental stewardship-regenerative practices-Pollution prevention,Value proposition,No
+C79,S4,Products superior field performance for a stipulated period with least maintenance cost,Product life cycle,Value proposition,No
+C80,S4,Products designed for easy serviceability,Product Service,Value proposition,No
+C92,S4,Environment friendly products,Use of renewable and non-toxic materials,Value proposition,No
+C93,S4,Easy to recycle,Use of renewable and non-toxic materials,Value proposition,No
+C94,S4,Easy for reuse,Use of renewable and non-toxic materials,Value proposition,No
